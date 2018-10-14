@@ -1,5 +1,5 @@
 baseURL = "https://ashitovod.com/"
-title = "Где-то на дальнем сервере"
+title = "be clever is the new black"
 # for smart copyright line, leave this blank and check [params.copyright]
 copyright = ""
 
@@ -20,7 +20,7 @@ preserveTaxonomyNames = true
 enableEmoji = true
 
 [params.info]
-    description = "Заметки о программировании и не только"
+    description = "be clever is the new black"
     title404 = "Страница не найдена"
 
 [params.assets]
@@ -30,7 +30,7 @@ enableEmoji = true
 
 [params.copyright]
     prefix = ""
-    holder = "vporoshok"
+    holder = "ashitovod"
     startYear = "2018"
     suffix = ""
 
@@ -53,10 +53,11 @@ enableEmoji = true
     footer = []
 
 [params.social]
-    email = "vporoshok@gmail.com"
-    github = "vporoshok"
-    twitter = "vporoshok"
-    telegram = "vporoshok"
+    email = "asarmakeeva@gmail.com"
+    github = "asarmakeeva"
+    twitter = "ashitovod"
+    telegram = "ashitovod"
+    instagram = "ashitovod"
 
 [params.comments]
     enable = false
