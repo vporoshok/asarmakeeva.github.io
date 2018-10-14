@@ -1,7 +1,7 @@
 # About Widget config
 [about]
     title = "ashitovod.com"
-    description = "Где-то на дальнем сервере"
+    description = "nothing for nobody"
     logo = "/images/logo.jpg"
 
 # Recent Posts Widget config
@@ -18,7 +18,7 @@
 # Social Menu Widget config
 [social_menu]
     title = ""                            # default: ""
-    platforms = ["twitter","github","email","telegram"]
+    platforms = ["twitter","github","email","telegram","instagram"]
 
 # Taxonomy Cloud Widget config
 [taxonomy_cloud]
