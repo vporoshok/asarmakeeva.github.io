@@ -1,16 +1,12 @@
-# Install the apt prerequisites
-addons:
-  apt:
-    packages:
-      - python-pygments
-
 # Clean and don't fail
 install:
+  - wget -O /tmp/hugo.deb https://github.com/gohugoio/hugo/releases/download/v$VERSION/hugo_$VERSION_Linux-64bit.deb
+  - sudo dpkg -i /tmp/hugo.deb
   - rm -rf public || exit 0
 
 # Build the website
 script:
-  - ./.bin/hugo
+  - hugo
 
 # Deploy to GitHub pages
 deploy:
